@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>  
+<body class="index" id="top">
+  
+  <header></header>
+
+  <nav id="drawer"></nav>
+
+  <main>
+    <section class="cards">
+      <ul>
+        <li style="background-image: url('./img/sch-gate.png');">&nbsp;</li>
+        <li style="background-image: url('./img/logo.png');">&nbsp;</li>
+        <li style="background-image: url('./img/vc.png');">&nbsp;</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer></footer>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+<script type="text/javascript">
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./js/service-worker.js', {scope: './'})
+    .then(function(registration) {console.log('Service worker registered', registration);})
+    .catch(function(error) {console.log('Service worker not registered', error);});
+  }
+</script>
+<script type="text/javascript" src="js/event-handler.js"></script>  
+<script type="text/javascript" src="js/app-config.js"></script>  
+<script type="text/javascript" src="js/app-layout.js"></script> 
+<script type="text/javascript">
+  autoFocus();
+</script>  
+</body>
+</html>

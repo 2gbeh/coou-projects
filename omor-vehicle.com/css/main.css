@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+main .cards {
+  padding-top: 100px;
+  text-align: center;
+}
+main .cards ul li {
+  background-color: #fff;
+	background-image: url('../img/wallpaper.png'); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+  background-size: cover;  
+  box-shadow: 0 0 30px #222;
+  margin: 40px;
+  width: 360px;
+  height: 360px;
+}
+/* ========================================================================= */
+main .forms {   
+  padding-top: 200px;
+  text-align: center;
+}
+main .forms form {
+  background-color: #222;
+  padding: 20px 0;
+  width: 720px;
+  display: inline-block;
+}
+main .forms form input {
+  border: 1px solid #ddd;
+  padding: 20px;
+  min-width: 530px;
+}
+main .forms form select {
+  border: 1px solid #ddd;
+  padding: 12px 10px;
+  min-width: 530px;
+}
+main .forms form button {
+  background-color: #222;
+  color: #fff;
+  border: 0;
+  padding: 20px 25px;
+}
+main .forms form button:hover {
+  background-color: #333;
+}
+/* ========================================================================= */
+main .forms#forms-register {   
+  padding-top: 0;
+  margin-bottom: 60px;
+}
+main .forms#forms-register table tr th {   
+  padding: 0 10px 0 20px;
+  white-space: nowrap;
+}
+main .forms#forms-register table tr td {   
+  padding: 0 20px 5px 0;
+  width: 0;
+}
+main .forms#forms-register form label {
+  font-size: 14px;
+}
+main .forms#forms-register form input {
+  padding: 12px 15px;
+}
+main .forms#forms-register form button {
+  padding: 15px 20px;
+}
+main .forms#forms-register form button.btn-sec {
+  background-color: #e11;
+}
+main .forms#forms-register form button.btn-sec:hover {
+  background-color: #333;
+}
+/* ========================================================================= */
+main .tables {   
+  padding: 20px 0 10px;
+  text-align: center;
+}
+main .tables .btn {
+  background-color: #e11;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+main .tables .btn:hover {
+  background-color: #333;
+}
+main .tables ul {
+  margin-bottom: 100px;
+}
+main .tables ul > li {
+  background-color: #fff;
+  box-shadow: 0 1px 2px #555;
+  margin: 10px;
+  min-width: 410px;
+  max-width: 410px;  
+  min-height: 28em;
+  vertical-align: top;
+}
+
+main .tables table caption {
+  background-color: #222;
+  color: #fff;
+  border-bottom: 1px solid #333;
+  padding: 12px 20px;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: bold;
+}
+main .tables table tr th {
+  padding: 20px 15px 10px;
+}
+main .tables table tr td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+main .tables figure {
+  width: 160px;
+  height: 160px;
+}
+main .tables h1 {
+  margin: 10px 0 0;
+  font-size: 24px;
+}
+main .tables b {
+  color: #555;
+  font-size: 14px;
+}
+main .tables p {
+  margin: 0;
+  margin-top: 5px;
+  line-height: 25px;
+}
+main .tables p u {  
+  text-decoration: underline dotted;
+  display: inline;
+}
+main .tables a {
+  text-decoration: underline;
+}
+main .tables .tube {
+  background-color: #c8c8c8;
+  margin: 10px 0;
+  padding: 0;
+  height: 5px;
+  cursor: pointer;
+}
+main .tables .tube .ink {
+  background-color: #5cb85c;
+  height: 5px;
+  list-style-type: none;
+}

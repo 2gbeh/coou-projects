@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>  
+<body class="" id="top" data-title="Registration">
+  
+  <header></header>
+
+  <nav id="drawer"></nav>
+
+  <aside id="notice-wrapper"></aside>
+
+  <main>
+    <section class="forms" id="forms-register">
+      <form action="" method="get" autocomplete="off" onsubmit="return false">
+        <table border="0">
+          <tr>
+            <th><label>Passport Photograph</label></th>
+            <td><input type="file" name="photo" value="" placeholder="" required /></td>
+          </tr>
+          <tr>
+            <th><label>Car Owner Name</label></th>
+            <td><input type="text" name="names" value="" placeholder="N/b: Surname first" required autofocus /></td>
+          </tr>
+          <tr>
+            <th><label>Marital Status</label></th>
+            <td>
+              <select name="married" required>
+                <option disabled selected>--- Select option ---</option>
+                <option>Single</option>
+                <option>Married</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th><label>Telephone No.</label></th>
+            <td><input type="tel" name="phone" value="" placeholder="" required /></td>
+          </tr>
+          <tr>
+            <th><label>Home Address</label></th>
+            <td><input type="search" name="address" value="" placeholder="" required /></td>
+          </tr>
+          <tr>
+            <th><label>LGA & State of Origin</label></th>
+            <td><input type="search" name="lga_soo" value="" placeholder="Eg. Ika South, Delta" required /></td>
+          </tr>
+          <tr>
+            <th><label>Nationality</label></th>
+            <td><input type="text" name="country" value="" placeholder="" required /></td>
+          </tr>
+          <tr>
+            <th><label>Occupation</label></th>
+            <td><input type="text" name="occupation" value="" placeholder="" required /></td>
+          </tr>
+          <tr>
+            <th><label>Car Plate No.</label></th>
+            <td><input type="text" name="plate_no" value="" placeholder="Eg. EA411WQA" required /></td>
+          </tr>
+          <tr>
+            <th><label>Car Engine No.</label></th>
+            <td><input type="text" name="engine_no" value="" placeholder="Eg. AT5H27DV" required /></td>
+          </tr>
+          <tr>
+            <th><label>Car Chassis No.</label></th>
+            <td><input type="text" name="chassis_no" value="" placeholder="Eg. T4471" required /></td>
+          </tr>
+          <tr>
+            <th><label>Registration State</label></th>
+            <td><input type="text" name="reg_state" value="" placeholder="" required /></td>
+          <tr>
+            <th><label>Registration No.</label></th>
+            <td><input type="text" name="reg_no" value="" placeholder="Eg. FLI00042" required /></td>
+          </tr>
+          <tr>
+            <th><label>Registration Date</label></th>
+            <td><input type="date" name="dob" value="" placeholder="" required /></td>
+          </tr>
+        </table>     
+        <p></p>
+        <button type="reset" class="btn btn-sec">
+          <i class="fi fi-rs-delete"></i>
+          Cancel
+        </button> &nbsp;
+        <button onclick="Reg.save()" class="btn btn-pri">
+          <i class="fi fi-rs-checkbox"></i>
+          Save
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="end"></footer>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+<script type="text/javascript" src="js/event-handler.js"></script>  
+<script type="text/javascript" src="js/app-config.js"></script>  
+<script type="text/javascript" src="js/app-layout.js"></script>  
+<script type="text/javascript" src="js/Reg.ctrl.js"></script>  
+<script type="text/javascript">
+  autoFocus();
+  autoFill(1);
+</script>
+</body>
+</html>

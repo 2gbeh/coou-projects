@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>  
+<body class="home" id="top" data-title="Authenticate">
+  
+  <header></header>
+
+  <nav id="drawer"></nav>
+
+  <aside id="notice-wrapper"></aside>
+
+  <main>
+    <section class="forms">
+      <form action="" method="get" autocomplete="off" onsubmit="return false">
+        <input type="search" name="q" value="" placeholder="Enter vehicle chassis number..." required autofocus /> &nbsp;
+        <button onclick="Auth.search()" class="btn btn-pri">
+          <i class="fi fi-rs-search"></i>
+          Search
+        </button>
+      </form>
+    </section>
+  </main>
+
+  <footer></footer>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////// -->
+<script type="text/javascript" src="js/event-handler.js"></script>  
+<script type="text/javascript" src="js/app-config.js"></script>  
+<script type="text/javascript" src="js/app-layout.js"></script>  
+<script type="text/javascript" src="js/Auth.ctrl.js"></script>  
+<script type="text/javascript">
+  autoFocus(); 
+  autoFill(0);
+</script>  
+</body>
+</html>

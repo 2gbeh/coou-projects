@@ -1,0 +1,25 @@
+{
+  "name": "Ade Vehicle",
+  "short_name": "Ade Vehicle",  
+  "description": "Vehicle Chassis No. Authentication",
+  "background_color": "#ffffff",
+  "theme_color": "#475c5d",
+  "start_url": "index.php",
+  "scope": "/",  
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/msapplication-tile-image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

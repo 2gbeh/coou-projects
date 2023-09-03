@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*
+... 
+*/
+
+.black,
+header, 
+nav,
+main .forms form {
+  background-color: #475c5d;
+	color: #fff;
+}
+
+main .tables h1,
+main .tables b {
+  color: #475c5d;
+}
+
+main .tables ul table caption {
+  border-color: #475c5d;
+}
+
+.yellow {
+	color: #fff402;
+}
+
+.green,
+header ul li a.focus,
+nav ul li a.focus,
+main .forms form button,
+main .tables ul table caption {
+	background-color: #86c226;
+}
