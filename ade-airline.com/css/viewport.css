@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@media only screen and (max-width: 640px) {
+  .container {
+    width: 100%;
+  }
+/* ========================================================================= */
+  header {
+    padding: 5px 10px 5px 15px;
+  }
+  header ul.desktop {
+    display: none;
+  }
+  header ul.mobile {
+    display: inline-block;
+  }
+/* ========================================================================= */
+  main {
+    min-height: auto;
+  }
+  main .cards {
+    padding: 0 15px 100px;
+  }
+  main .cards ul li {
+    margin: 40px 0 0;
+    width: 100%;
+    display: block;
+  }
+/* ========================================================================= */
+  main .forms {
+    padding: 70px 0 200px;
+  }
+  main .forms form {
+    padding: 30px 15px;
+    width: 100%;
+  }
+  main .forms form input {
+    margin-bottom: 10px;
+    min-width: 100%;
+  }
+/* ========================================================================= */
+  main .tables {
+    padding-top: 0;
+  }
+  main .tables {
+    margin: 20px 15px;
+  }
+  main .tables ul > li {
+    margin: 10px 0 20px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: auto;
+    display: block;
+  }
+  main .tables table caption {
+    padding: 12px 15px;
+  }
+/* ========================================================================= */  
+  .index footer,
+  .home footer {
+    position: static;
+  }
+}
